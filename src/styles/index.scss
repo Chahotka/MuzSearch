@@ -1,0 +1,28 @@
+@import 'null.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap');
+
+* {
+  font-family: 'Montserrat';
+  font-weight: 400;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+p, span, h1, h2, h3, h4, a {
+  padding: 2px 0;
+}
+
+body {
+  position: relative;
+
+  &.lock {
+    overflow: hidden;
+  }
+}

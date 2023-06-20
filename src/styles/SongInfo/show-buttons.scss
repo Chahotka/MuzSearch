@@ -1,0 +1,58 @@
+.buttons {
+  margin: 10px 0 0 0;
+
+  &__container {
+  }
+
+  &__body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  &__button {
+    display: grid;
+    grid-template-rows: 1fr 5px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  &__overview {
+  }
+
+  &__lyrics {
+  }
+
+  #bar1, #bar2 {
+    width: 0%;
+    opacity: 0.5;
+    transition: all .5s;
+    background: #000;
+
+    &.active {
+      opacity: 1;
+      width: 100%;
+    }
+  }
+
+  #bar1 {
+    margin: 0 0 0 auto;
+  }
+
+  #bar2 {
+
+  }
+}
+
+.btn {
+  padding: 10px 0;
+  font-weight: 800;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  opacity: 0.5;
+  transition: all .5s;
+
+  &.active {
+    opacity: 1;
+  }
+}

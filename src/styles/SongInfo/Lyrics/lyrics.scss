@@ -1,0 +1,40 @@
+.lyrics {
+  left: 0;
+  position: relative;
+  transition: all 0.5s;
+  margin: 40px 0 0 0;
+  width: 100%;
+  opacity: 1;
+
+  &.hide {
+    top: 40px;
+    left: 100%;
+    position: absolute;
+    opacity: 0;
+  }
+
+  &__container {
+  }
+
+  &__body {
+    text-align: center;
+  }
+
+  &__list {
+  }
+
+  &__item {
+    line-height: 25px;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+    &.emp {
+      padding: 10px 0;
+    }
+  }
+
+  &__footer {
+    margin: 20px 0 0 0;
+  }
+}

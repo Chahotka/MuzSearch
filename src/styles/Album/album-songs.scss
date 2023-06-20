@@ -1,0 +1,19 @@
+.album {
+  margin: 25px 0 0 0;
+
+  &__container {
+  }
+
+  &__body {
+  }
+
+  &__title {
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  &__list {
+    column-gap: 30px;
+    row-gap: 20px;
+  }
+}

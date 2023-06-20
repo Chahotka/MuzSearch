@@ -1,0 +1,51 @@
+.preview {
+  color: #fff;
+  padding: 50px 0;
+  position: relative;
+  z-index: 1;
+
+  &__container {
+  }
+
+  &__body {
+    column-gap: 30px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: minmax(50px, 30%) 1fr;
+  }
+
+  &__image {
+    width: 100%;
+    box-shadow: 0 0 50px 0px rgba(0, 0, 0, 1);
+  }
+
+  &__desc {
+    display: grid;
+    row-gap: 30px;
+  }
+
+  &__album {
+    font-weight: 600;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  &__name {
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-transform: uppercase;
+  }
+
+  &__artist {
+    color: #fff;
+    font-weight: 600;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,30 @@
+.history {
+  width: 100%;
+  top: 30px;
+  left: 0;
+  border-radius: 20px;
+  background: #fff;
+  position: absolute;
+
+  &__body {
+    padding: 20px 20px;
+  }
+
+  &__list {
+    display: grid;
+    row-gap: 10px;
+  }
+
+  &__title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  &__item {
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

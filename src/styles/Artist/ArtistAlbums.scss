@@ -1,0 +1,32 @@
+.albums {
+  margin: 40px 0 0 0;
+
+  &__container {
+  }
+
+  &__body {
+  }
+
+  &__title {
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  &__list {
+    column-gap: 30px;
+    row-gap: 20px;
+  }
+
+  &__item {
+  }
+
+  &__desc {
+  }
+
+  &__name {
+  }
+
+  &__count {
+    font-weight: 600;
+  }
+}

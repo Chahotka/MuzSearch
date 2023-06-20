@@ -1,0 +1,99 @@
+
+.results {
+  padding: 20px;
+  width: 100%;
+  height: 80vh;
+  max-height: 600px;
+  top: 30px;
+  left: 0;
+  display: grid;
+  position: absolute;
+  border-radius: 20px;
+  background: #fff;
+  overflow: scroll;
+
+  &__title {
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+  }
+
+  &__tracks {
+  }
+
+  &__track {
+  }
+
+  &__artists {
+    display: grid;
+    row-gap: 20px;
+  }
+}
+
+.track {
+  margin: 0 0 20px 0;
+  color: #000;
+  display: grid;
+  border-radius: 20px;
+  overflow: hidden;
+
+  &__body {
+    display: grid;
+    column-gap: 15px;
+    align-items: center;
+    grid-template-columns: 80px 1fr;
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__desc {
+    display: grid;
+    row-gap: 10px;
+    align-items: center;
+  }
+
+  &__name {
+    color: #000;
+    font-weight: 600;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+
+
+  &__artist {
+    color: #000;
+    font-weight: 600;
+  }
+
+  &__more {
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+    background: #000;
+  }
+}
+
+
+.artist {
+  &__link {
+    display: grid;
+    column-gap: 15px;
+    align-items: center;
+    grid-template-columns: 70px 1fr;
+  }
+
+  &__img {
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  &__name {
+    color: #000;
+    font-weight: 600;
+  }
+}

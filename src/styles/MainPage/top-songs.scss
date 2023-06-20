@@ -1,0 +1,113 @@
+.top {
+  margin: 40px 0 0 0;
+
+  &__container {
+  }
+
+  &__body {
+  }
+
+  &__title {
+    font-size: 35px;
+    font-weight: 700;
+  }
+
+  &__list {
+    row-gap: 35px;
+    column-gap: 30px;
+    margin: 30px 0 0 0;
+  }
+
+  &__item {
+  }
+
+  &__song {
+  }
+
+  &__img {
+  }
+
+  &__desc {
+  }
+
+  &__name {
+  }
+
+  &__artist {
+  }
+
+  &__more {
+  }
+}
+
+
+.songs {
+
+  &__list {
+    width: 95%;
+    margin: 30px auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  &__item {
+    display: grid;
+    grid-template-rows: 1fr 25px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  &__song {
+    display: grid;
+    column-gap: 15px;
+    align-items: center;
+    grid-template-columns: minmax(40px, 25%) 1fr;
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__desc {
+    display: grid;
+    row-gap: 10px;
+    align-items: center;
+  }
+
+  &__name {
+    color: #000;
+    font-weight: 600;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  &__artist {
+    color: #000;
+    font-weight: 600;
+    color: #000;
+    font-weight: 600;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &__more {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: #000;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
